@@ -1,5 +1,8 @@
 {
-  "name": "react-table",
+  "name": "@agamj474/react-table",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/agamj474"
+  },
   "version": "1.0.0",
   "description": "",
   "scripts": {
