@@ -7,7 +7,7 @@ interface CellProps extends TableProps {
 }
 
 const TableCell = (props: CellProps) => {
-  return <tr>{props.row[props.column.name]}</tr>;
+  return <td>{props.row[props.column.name]}</td>;
 };
 
 export default TableCell;
