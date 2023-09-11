@@ -2878,7 +2878,7 @@ var TableHeader = function (props) {
 };
 
 var TableCell = function (props) {
-    return React.createElement("tr", null, props.row[props.column.name]);
+    return React.createElement("td", null, props.row[props.column.name]);
 };
 
 var TableRow = function (props) {
